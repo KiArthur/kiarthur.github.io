@@ -1,1 +1,13 @@
 Hello World
+
+<script language="javascript">
+    function open_appstore() {
+        window.location='http://itunes.com/';
+    }
+
+    function try_to_open_app() {
+        setTimeout('open_appstore()', 300);
+    }
+</script>
+
+<a onClick="javascript:try_to_open_app();" href="com.arthurshamro.LargeTitles://main">LargeTitles</a>
